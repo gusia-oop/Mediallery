@@ -1,10 +1,10 @@
 import { Frame, Image, Card, Title, QuoteMarks, Text } from "./styles/Collage"
 
-export default function Collage({ chidlren, ...restProps }) {
-  return <Frame {...restProps}> {chidlren} </Frame>
+export default function Collage({ children, ...restProps }) {
+  return <Frame {...restProps}> {children} </Frame>
 }
 
-Collage.Image = function CollageImage({...restProps}) {
+Collage.Image = function CollageImage({ ...restProps}) {
   return <Image {...restProps} />
 }
 

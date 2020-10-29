@@ -6,11 +6,11 @@ export const Background = styled.section`
   background-position: center;
   background-repeat: no-repeat; 
   text-align: center; 
-  height: 100vh; 
+  height: 80vh; 
   
   
-  @media(max-width: 600px) {
-    
+  @media(min-width: 740px) {
+    height: 100vh;
   }
 `
 
@@ -23,7 +23,7 @@ export const Group = styled.div`
 
 export const Title = styled.p`
   color: #fff;
-  font: 26px bold;
+  font: 24px bold;
 
   @media(min-width:1200px) {
     font-size: 32px;
@@ -31,7 +31,7 @@ export const Title = styled.p`
 `
 
 export const Text = styled.p`
-  padding-top: 150px;
+  padding-top: 60px;
   color: #fff;
 
   @media(min-width:1200px) {
