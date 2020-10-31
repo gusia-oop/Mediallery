@@ -1,3 +1,5 @@
 export { default as Header } from "./header"
 export { default as Footer } from "./footer"
 export { default as Collage } from "./collage"
+export { default as Gallery } from "./gallery"
+export { default as Card } from "./card"

@@ -10,14 +10,14 @@ export const Background = styled.section`
   
   
   @media(min-width: 740px) {
-    height: 100vh;
+    height: 80vh;
   }
 `
 
 export const Group = styled.div`
-  padding-top: 150px;
-  @media(min-width: 1200px) {
-    
+  padding-top: 80px;
+  @media(min-width: 980px) {
+    padding-top: 50px;
   }
 `
 
@@ -31,17 +31,18 @@ export const Title = styled.p`
 `
 
 export const Text = styled.p`
-  padding-top: 60px;
+  padding-top: 50px;
   color: #fff;
 
   @media(min-width:1200px) {
-    padding-top: 120px;
+    padding-top: 100px;
   }
 `
 
 export const Logo = styled.img`
   width: 100px;
   height: 40px;
+  margin-top: 20px;
   
   @media(min-width: 980px) {
     width: 150px;
@@ -50,23 +51,14 @@ export const Logo = styled.img`
   }
 `
 
-export const Search = styled.div`
+export const Search = styled.form`
   
-`
-
-export const SearchIcon = styled.button`
-  cursor: pointer;
-  background-color: transparent;
-  border: 0;
-
-  img {
-   width: 16px;
-  }
 `
 
 export const SearchInput = styled.input`
   background-color: rgba(247, 167, 141, 0.8);
   color: #000;
+  font-size: 16px;
   height: 7vh;
   width: 350px;
   padding-left: 10px;

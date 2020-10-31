@@ -4,7 +4,7 @@ export const Frame = styled.section`
   background-image: url('https://images.unsplash.com/photo-1526304760382-3591d3840148?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
   backgrpund-repeat: no-repeat;
   background-size: cover;
-  margin: 100px 0;
+  margin: 10px 0 100px 0;
   position: relative;
 
   width: 100%;

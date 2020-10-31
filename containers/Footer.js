@@ -1,9 +1,19 @@
-import { Footer } from "../components"
+import { Footer, Collage } from "../components"
 import Link from "next/link"
 
 export default function FooterContainer() {
   return (
     <>
+      <Collage>
+      <Collage.Card>
+        <Collage.Title>Find Artistic Visuals for Projects</Collage.Title>
+        <Collage.Text>
+          Mediallery is a content marketplace where you will find a variety of stock illustrations and artistic images at affordable prices. 
+          Discover artists, collections, and new images weekly.
+        </Collage.Text>
+      </Collage.Card>
+    </Collage>
+
       <Footer>
         <Footer.Title>Questions? Contact us.</Footer.Title>
         <Footer.Row>
